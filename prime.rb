@@ -3,10 +3,10 @@ def prime?(x)
   array = (2..x).to_a 
   if x < 2 
     return false
-  else
+  elsif
       if array.any? {|num| x % num == 0} 
       return false 
-  elsif
+  else
       return true 
   end
 end 
