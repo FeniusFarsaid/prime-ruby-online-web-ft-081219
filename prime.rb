@@ -3,8 +3,7 @@ def prime?(x)
   array = (2..x).to_a 
   if x < 2 
     return false
-  elsif
-      array.any? {|num| x % num == 0} 
+  elsif array.any? {|num| x % num == 0} 
       return false 
   else
       return true 
