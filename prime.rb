@@ -3,7 +3,7 @@ def prime?(x)
   if x < 2 
     return False
   else
-      if x % y(2..num) == 0 
+      if x % y(2..x) == 0 
       return False 
       return True 
   end
