@@ -6,6 +6,7 @@ def prime?(x)
       if x % y(2..num) == 0 
       return False 
       return True 
+  end
 end 
 
 # def is_prime(x):
