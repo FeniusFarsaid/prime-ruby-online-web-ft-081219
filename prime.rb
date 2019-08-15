@@ -1,9 +1,9 @@
 # Add  code here!
-def prime?(num)
-  if num < 2 
+def prime?(x)
+  if x < 2 
     return False
   else
-      if num % any_number(2..num) == 0 
+      if x % y(2..num) == 0 
       return False 
       return True 
 end 
