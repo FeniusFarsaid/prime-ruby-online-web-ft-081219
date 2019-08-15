@@ -5,6 +5,8 @@ def prime?(x)
     return false
   elsif x == 2 
       return true
+  elsif x == 3
+      return true 
   elsif array.any? {|num| x % num == 0} 
       return false 
   else
