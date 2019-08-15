@@ -12,13 +12,13 @@
 #   end
 # end 
 
-def prime?(n)
-  if n <= 1
+def prime?(x)
+  if x < 1
     return false
-  elsif n <= 3
+  elsif x <= 3
     return true
-  else (2..n/2).none? do |x|
-    n % x == 0
+  else (2..x/2).none? do |num|
+    x % num == 0
   end
   end
 end
