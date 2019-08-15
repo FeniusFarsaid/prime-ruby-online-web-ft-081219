@@ -4,8 +4,8 @@ def prime?(x)
     return false
   elsif x <= 3
     return true
-  else (2..x/2).none? do |num|
-    x % num == 0
+  else (2..x/2).none? 
+    do |num| x % num == 0
     end
   end 
 end
