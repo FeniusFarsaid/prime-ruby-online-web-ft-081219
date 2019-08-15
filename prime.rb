@@ -1,6 +1,6 @@
 # # Add  code here!
 def prime?(x)
-  array = [2..x]
+  array = (2..x).to
   if x < 2 
     return false
   else
