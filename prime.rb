@@ -5,8 +5,8 @@ def prime?(x)
   else
       if x % y(2..x) == 0 
       return False 
+    end
       return True 
-  end
 end 
 
 # def is_prime(x):
