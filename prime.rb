@@ -1,12 +1,12 @@
 # Add  code here!
 def prime?(x)
   if x < 2 
-    return False
+    return false
   else
       if x % y(2..x) == 0 
-      return False 
+      return false 
     end
-      return True 
+      return true 
 end 
 
 # def is_prime(x):
