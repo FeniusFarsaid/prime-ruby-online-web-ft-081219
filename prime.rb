@@ -4,6 +4,8 @@ def prime?(x)
   if x < 2 
     return false
   else
+      if array.any? 
+      
       if x % y(2..x) == 0 
       return false 
   elsif
