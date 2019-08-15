@@ -3,7 +3,7 @@ def prime?(num)
   if num < 2 
     return False
   else
-    for any_number(2..num)
+    for any_number in (2..num)
       if num % any_number == 0 
       return False 
       return True 
