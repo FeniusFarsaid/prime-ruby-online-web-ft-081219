@@ -3,10 +3,9 @@ def prime?(num)
   if num < 2 
     False
   else
-    for any_number in range
-  
-  
-  
+    for any_number(2..num)
+      if num % any_number == 0 
+      False 
 end 
 
 # def is_prime(x):
